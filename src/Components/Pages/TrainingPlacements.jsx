@@ -101,7 +101,7 @@ const TrainingPlacements = () => {
                   Courses Offering
                 </span>
                 <h2 className="source-serif-4 text-normal font-weight-light">
-                  "It's not just course, it's an experience"{" "}
+                  "It's not just course, it's an experience
                 </h2>
               </div>
             </div>
@@ -141,7 +141,8 @@ const TrainingPlacements = () => {
                     <h4 class=" mb-0 mt-lg-0 mt-4 text-gradient text-info "><b>Pack 4 Content</b></h4>
                     <p class="text-black">
                       <b>
-                        Pack 1 + Pack 2 + Pack3
+                      Pack 1 + Pack 2 + Pack3
+                        
 
                       </b>
                     </p>
@@ -274,43 +275,7 @@ const TrainingPlacements = () => {
                     UI/UX design bridges aesthetics with functionality to create
                     seamless user experiences.
                   </h5>
-                  <div class="row align-items-center">
-                    <div class="col-md-7 mb-md-0 ">
-                      <div class="col-md-12 ">
-                        <div class="p-3 info-horizontal d-flex">
-                          <div>
-                            <h5>1. User-Centered Design:</h5>
-                            <p>
-                              Focuses on understanding user behaviors, needs, and
-                              preferences to create intuitive and engaging
-                              interfaces.
-                            </p>
-                          </div>
-                        </div>
-                        <div class="p-3 info-horizontal d-flex">
-                          <div>
-                            <h5>2. Aesthetic and Functional Balance:</h5>
-                            <p>
-                              Combines visual appeal with usability, ensuring
-                              interfaces are both attractive and easy to navigate.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-5">
-                      <div class=" p-0 border-radius-lg">
-                        <div class="blur-shadow-image">
-                          <img
-                            src="https://www.ideatesystemsindia.com/wp-content/uploads/2021/09/ui-graphic-design-services-in-pune-1.png"
-                            alt="img-blur-shadow"
-                            class="img-fluid border-radius-lg"
-                            loading="lazy"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  
                   <div class="row align-items-center">
                     <div class="col-md-5">
                       <div class=" p-0 border-radius-lg">
