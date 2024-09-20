@@ -154,7 +154,7 @@ const TrainingPlacements = () => {
                         data-bs-toggle="modal"
                         data-bs-target="#devopsModal"
                       >
-                        enroll
+                        More
                       </button>
                     </div>
                   </div>
@@ -243,92 +243,7 @@ const TrainingPlacements = () => {
           </div>
         </section>
         {/* UI/UX Design Modal */}
-        <div
-          class="modal fade"
-          id="uiModal"
-          tabindex="-1"
-          role="dialog"
-          aria-labelledby="uiModalLabel"
-          aria-hidden="true"
-        >
-          <div
-            class="modal-dialog modal-dialog-centered modal-xl"
-            role="document"
-          >
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="uiModalLabel">
-                  UI/UX Designing
-                </h5>
-                <button
-                  type="button"
-                  class="btn-close"
-                  data-bs-dismiss="modal"
-                  aria-label="Close"
-                >
-                  <i class="fa fa-times text-dark" aria-hidden="true"></i>
-                </button>
-              </div>
-              <div class="modal-body">
-                <div class="container-fluid">
-                  <h5 class="text-black text-normal">
-                    UI/UX design bridges aesthetics with functionality to create
-                    seamless user experiences.
-                  </h5>
-                  
-                  <div class="row align-items-center">
-                    <div class="col-md-5">
-                      <div class=" p-0 border-radius-lg">
-                        <div class="blur-shadow-image">
-                          <img
-                            src="https://d23lxg2o0ozuov.cloudfront.net/images/UI_UX.png"
-                            alt="img-blur-shadow"
-                            class="img-fluid border-radius-lg"
-                            loading="lazy"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-7 mb-md-0 ">
-                      <div class="col-md-12 ">
-                        <div class="p-3 info-horizontal d-flex">
-                          <div>
-                            <h5>3. Wireframing and Prototyping:</h5>
-                            <p>
-                              Utilizes wireframes and prototypes to iterate and
-                              refine designs, optimizing user interactions and
-                              flow.
-                            </p>
-                          </div>
-                        </div>
-                        <div class="p-3 info-horizontal d-flex">
-                          <div>
-                            <h5>4. Accessibility and Inclusivity:</h5>
-                            <p>
-                              Designs interfaces that are accessible to all users,
-                              considering diverse abilities and ensuring
-                              compliance with accessibility standards.
-                            </p>
-                          </div>
-                        </div>
-                        <div class="p-3 info-horizontal d-flex">
-                          <div>
-                            <h5>5. Responsive and Adaptive Design:</h5>
-                            <p>
-                              Ensures interfaces are responsive across different
-                              devices and screen sizes, providing a seamless
-                              experience on desktop, mobile, and tablet platforms.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        
         {/* Devops Modal */}
         <div
           class="modal fade"
@@ -401,7 +316,7 @@ const TrainingPlacements = () => {
                       <div class=" p-0 border-radius-lg">
                         <div class="blur-shadow-image">
                           <img
-                            src="https://cloudanalogy.com/wp-content/uploads/2019/08/Devops@4x-min-768x590.png"
+                            src="../../assets/imgs/advjava.jpeg"
                             alt="img-blur-shadow"
                             class="img-fluid border-radius-lg"
                             loading="lazy"
