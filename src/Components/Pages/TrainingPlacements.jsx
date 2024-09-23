@@ -141,8 +141,8 @@ const TrainingPlacements = () => {
                     <h4 class=" mb-0 mt-lg-0 mt-4 text-gradient text-info "><b>Pack 4 Content</b></h4>
                     <p class="text-black">
                       <b>
-                      Pack 1 + Pack 2 + Pack3
-                        
+                        Pack 1 + Pack 2 + Pack3
+
 
                       </b>
                     </p>
@@ -243,7 +243,7 @@ const TrainingPlacements = () => {
           </div>
         </section>
         {/* UI/UX Design Modal */}
-        
+
         {/* Devops Modal */}
         <div
           class="modal fade"
@@ -341,257 +341,7 @@ const TrainingPlacements = () => {
             </div>
           </div>
         </div>
-        {/* Mern Modal */}
-        <div
-          class="modal fade"
-          id="mernModal"
-          tabindex="-1"
-          role="dialog"
-          aria-labelledby="mernModalLabel"
-          aria-hidden="true"
-        >
-          <div
-            class="modal-dialog modal-dialog-centered modal-xl"
-            role="document"
-          >
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="mernModalLabel">
-                  Web Apps - MERN/MEAN Stack
-                </h5>
-                <button
-                  type="button"
-                  class="btn-close"
-                  data-bs-dismiss="modal"
-                  aria-label="Close"
-                >
-                  <i class="fa fa-times text-dark" aria-hidden="true"></i>
-                </button>
-              </div>
-              <div class="modal-body">
-                <div class="container-fluid">
-                  <h4 class="mb-4 text-normal">
-                    Web Apps built on the MERN/MEAN Stack harness modern
-                    JavaScript frameworks for robust, scalable, and responsive
-                    applications.
-                  </h4>
-                  <div class="row align-items-center">
-                    <div class="col-md-7 mb-md-0 ">
-                      <div class="col-md-12 ">
-                        <div class="p-3 info-horizontal d-flex">
-                          <div>
-                            <h5>1. Full-Stack JavaScript:</h5>
-                            <p>
-                              Utilizes JavaScript throughout the entire
-                              application stack, promoting code reusability and
-                              developer productivity.
-                            </p>
-                          </div>
-                        </div>
-                        <div class="p-3 info-horizontal d-flex">
-                          <div>
-                            <h5>2. Scalability and Performance:</h5>
-                            <p>
-                              Leverages Node.js for server-side logic and
-                              asynchronous handling, enabling high-performance and
-                              scalable applications.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-5">
-                      <div class=" p-0 border-radius-lg">
-                        <div class="blur-shadow-image">
-                          <img
-                            src="https://www.infomazeelite.com/wp-content/uploads/2022/12/MERN-Stack-Development.png"
-                            alt="img-blur-shadow"
-                            class="img-fluid border-radius-lg"
-                            loading="lazy"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row align-items-center mt-4">
-                    <div class="col-md-5">
-                      <div class=" p-0 border-radius-lg">
-                        <div class="blur-shadow-image">
-                          <img
-                            src="https://www.rlogical.com/wp-content/themes/logical/images/Hire-MERN-Stack-Banner.webp"
-                            alt="img-blur-shadow"
-                            class="img-fluid border-radius-lg"
-                            loading="lazy"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-7 mb-md-0 ">
-                      <div class="col-md-12 ">
-                        <div class="p-3 info-horizontal d-flex">
-                          <div>
-                            <h5>3. Component-Based Architecture:</h5>
-                            <p>
-                              Employs component-based frameworks like React (MERN
-                              Stack) or Angular (MEAN Stack) for modular,
-                              maintainable, and reusable UI components.
-                            </p>
-                          </div>
-                        </div>
-                        <div class="p-3 info-horizontal d-flex">
-                          <div>
-                            <h5>4. NoSQL Database (MongoDB):</h5>
-                            <p>
-                              Uses MongoDB for flexible and scalable data storage,
-                              supporting JSON-like document structures and
-                              facilitating agile development.
-                            </p>
-                          </div>
-                        </div>
-                        <div class="p-3 info-horizontal d-flex">
-                          <div>
-                            <h5>5. Community Support and Ecosystem:</h5>
-                            <p>
-                              Benefits from a vibrant developer community,
-                              extensive libraries, and third-party integrations
-                              for rapid development and innovation.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* Mobile Apps Modal */}
-        <div
-          class="modal fade"
-          id="mobileAppsModal"
-          tabindex="-1"
-          role="dialog"
-          aria-labelledby="mobileAppsModalLabel"
-          aria-hidden="true"
-        >
-          <div
-            class="modal-dialog modal-dialog-centered modal-xl"
-            role="document"
-          >
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="mobileAppsModalLabel">
-                  Mobile Apps with Flutter / Android / iOS
-                </h5>
-                <button
-                  type="button"
-                  class="btn-close"
-                  data-bs-dismiss="modal"
-                  aria-label="Close"
-                >
-                  <i class="fa fa-times text-dark" aria-hidden="true"></i>
-                </button>
-              </div>
-              <div class="modal-body">
-                <div class="container-fluid">
-                  <div>
-                    <h4 class="mb-2 text-black text-normal">
-                      Build cross-platform mobile apps with Flutter for seamless
-                      performance on Android and iOS platforms.
-                    </h4>
-                  </div>
-                  <div class="row align-items-center">
-                    <div class="col-md-7 mb-md-0 ">
-                      <div class="col-md-12 ">
-                        <div class="p-3 info-horizontal d-flex">
-                          <div>
-                            <h5>1. Cross-Platform Development:</h5>
-                            <p>
-                              Flutter enables building high-performance apps for
-                              both Android and iOS from a single codebase,
-                              reducing development time and effort.
-                            </p>
-                          </div>
-                        </div>
-                        <div class="p-3 info-horizontal d-flex">
-                          <div>
-                            <h5>2. Native Performance:</h5>
-                            <p>
-                              Utilizes native compilation and optimized widgets in
-                              Flutter for fast rendering and smooth performance on
-                              various devices.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-5">
-                      <div class=" p-0 border-radius-lg">
-                        <div class="blur-shadow-image">
-                          <img
-                            src="https://cdn.prod.website-files.com/646497e9af65ec660cdb5328/649d70154a37516c5761f0e2_62dffc4393fe42b7bc4d7dec_betterment.png"
-                            alt="img-blur-shadow"
-                            class="img-fluid border-radius-lg"
-                            loading="lazy"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row align-items-center mt-4">
-                    <div class="col-md-5">
-                      <div class=" p-0 border-radius-lg">
-                        <div class="blur-shadow-image">
-                          <img
-                            src="https://webdigitalmediagroup.com/wp-content/uploads/2023/05/mobile-app-development-companies-in-dubai-3-1.png"
-                            alt="img-blur-shadow"
-                            class="img-fluid border-radius-lg"
-                            loading="lazy"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-7 mb-md-0 ">
-                      <div class="col-md-12 ">
-                        <div class="p-3 info-horizontal d-flex">
-                          <div>
-                            <h5>3. Access to Native Features:</h5>
-                            <p>
-                              Integrates seamlessly with platform-specific
-                              features and APIs, providing access to device
-                              hardware and functionalities.
-                            </p>
-                          </div>
-                        </div>
-                        <div class="p-3 info-horizontal d-flex">
-                          <div>
-                            <h5>4. Fast Development and Iteration:</h5>
-                            <p>
-                              Facilitates rapid prototyping, hot reload, and quick
-                              iteration cycles, enhancing developer productivity
-                              and time-to-market.
-                            </p>
-                          </div>
-                        </div>
-                        <div class="p-3 info-horizontal d-flex">
-                          <div>
-                            <h5>5. Platform-Specific Customization:</h5>
-                            <p>
-                              Allows customization of UI and behavior for specific
-                              platform requirements while maintaining code sharing
-                              and efficiency.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+       
         {/* WebApps Modal */}
         <div
           class="modal fade"
@@ -969,7 +719,7 @@ const TrainingPlacements = () => {
               </div>
               <div class="carousel-item">
                 <div class="row container mt-lg-5 mt-4">
-                <div class="col-lg-4 col-sm-6">
+                  <div class="col-lg-4 col-sm-6">
                     <div class="card card-body">
                       <div class="row">
                         <div class="col-lg-9">
@@ -1038,11 +788,11 @@ const TrainingPlacements = () => {
                       </div>
                     </div>
                   </div>
-                  
-                  
+
+
                 </div>
               </div>
-              
+
             </div>
             <button
               class="carousel-control-prev"
