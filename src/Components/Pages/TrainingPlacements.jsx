@@ -1,6 +1,17 @@
 import React from "react";
 
 const TrainingPlacements = () => {
+  
+  const handleMouseEnter = (e) => {
+    const youtubeIcon = e.currentTarget.querySelector('.youtube-icon');
+    youtubeIcon.style.display = 'block';
+  };
+
+  const handleMouseLeave = (e) => {
+    const youtubeIcon = e.currentTarget.querySelector('.youtube-icon');
+    youtubeIcon.style.display = 'none';
+  };
+
   return (
     // <div>
     //   <header>
@@ -821,6 +832,160 @@ const TrainingPlacements = () => {
           </div>
         </div>
       </section>
+
+
+      <section className="py-5 fadeIn1 fadeInBottom">
+  <div className="container">
+    <div className="row">
+      <div className="col-md-8 mx-auto text-center">
+        <h4 className="text-gradient text-primary text-border font-monospace">
+          STUDENT FEEDBACK
+        </h4>
+      </div>
+    </div>
+    <div id="carouselStudentFeedback" className="carousel slide" data-bs-ride="carousel">
+      <div className="carousel-inner">
+        {Array.from({ length: Math.ceil(8 / 3) }).map((_, carouselIndex) => (
+          <div className={`carousel-item ${carouselIndex === 0 ? 'active' : ''}`} key={carouselIndex}>
+            <div className="row container mt-lg-5 mt-4">
+              {[
+                {
+                  name: "Student Name 1",
+                  feedback: "Great training! It helped me a lot in my career.",
+                  image: "../../assets/img/team-4.jpg",
+                  videoLink: "https://www.youtube.com/watch?v=example1",
+                },
+                {
+                  name: "Student Name 2",
+                  feedback: "The best experience I've ever had. Highly recommend!",
+                  image: "../../assets/img/team-4.jpg",
+                  videoLink: "https://www.youtube.com/watch?v=example2",
+                },
+                {
+                  name: "Student Name 3",
+                  feedback: "I learned so much! The trainers are very experienced.",
+                  image: "../../assets/img/team-4.jpg",
+                  videoLink: "https://www.youtube.com/watch?v=example3",
+                },
+                {
+                  name: "Student Name 4",
+                  feedback: "An amazing experience! I gained a lot of practical knowledge.",
+                  image: "../../assets/img/team-4.jpg",
+                  videoLink: "https://www.youtube.com/watch?v=example4",
+                },
+                {
+                  name: "Student Name 5",
+                  feedback: "The trainers were very helpful and knowledgeable.",
+                  image: "../../assets/img/team-4.jpg",
+                  videoLink: "https://www.youtube.com/watch?v=example5",
+                },
+                {
+                  name: "Student Name 6",
+                  feedback: "Highly informative and practical sessions.",
+                  image: "../../assets/img/team-4.jpg",
+                  videoLink: "https://www.youtube.com/watch?v=example6",
+                },
+                {
+                  name: "Student Name 7",
+                  feedback: "I am more confident in my skills now. Thank you!",
+                  image: "../../assets/img/team-4.jpg",
+                  videoLink: "https://www.youtube.com/watch?v=example7",
+                },
+                {
+                  name: "Student Name 8",
+                  feedback: "The course was fantastic and very engaging.",
+                  image: "../../assets/img/team-4.jpg",
+                  videoLink: "https://youtu.be/DjYZk8nrXVY?si=FARPr2NwfZXguZQn",
+                },
+              ]
+              .slice(carouselIndex * 3, carouselIndex * 3 + 3) // Display 3 cards per slide
+              .map((student, index) => (
+                <div className="col-lg-4 col-sm-6 mb-4" key={index}>
+                  <div
+                    className="card"
+                    style={{
+                      position: 'relative',
+                      overflow: 'hidden', // Prevent overflow for opacity effect
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.opacity = 0.7; // Change opacity on hover
+                      const overlay = e.currentTarget.querySelector('.overlay');
+                      overlay.style.opacity = 1; // Show overlay text
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.opacity = 1; // Reset opacity on leave
+                      const overlay = e.currentTarget.querySelector('.overlay');
+                      overlay.style.opacity = 0; // Hide overlay text
+                    }}
+                  >
+                    <img
+                      className="card-img-top"
+                      src={student.image}
+                      alt={student.name}
+                      style={{ width: '100%', height: 'auto' }}
+                    />
+                    <div className="card-body text-center">
+                      <h5 className="text-rose">{student.name}</h5>
+                      <p>“{student.feedback}”</p>
+                      <div className="overlay" style={{
+                        position: 'absolute',
+                        top: 0,
+                        left: 0,
+                        width: '100%',
+                        height: '100%',
+                        backgroundColor: 'rgba(0, 0, 0, 0.5)',
+                        display: 'flex',
+                        justifyContent: 'center',
+                        alignItems: 'center',
+                        color: 'white',
+                        opacity: 0,
+                        transition: 'opacity 0.3s',
+                        pointerEvents: 'none', // Disable pointer events on overlay by default
+                      }}>
+                        <a 
+                          href={student.videoLink} 
+                          target="_blank" 
+                          rel="noopener noreferrer" 
+                          style={{ 
+                            color: 'white', 
+                            fontSize: '1.2rem', 
+                            textDecoration: 'none', 
+                            pointerEvents: 'auto' // Enable pointer events for the link
+                          }} 
+                        >
+                          Watch Video
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+      <button
+        className="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselStudentFeedback"
+        data-bs-slide="prev"
+      >
+        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span className="visually-hidden">Previous</span>
+      </button>
+      <button
+        className="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselStudentFeedback"
+        data-bs-slide="next"
+      >
+        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+        <span className="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</section>
+
 
     </div>
   );
