@@ -834,7 +834,7 @@ const TrainingPlacements = () => {
       </section>
 
 
-      <section className="py-5 fadeIn1 fadeInBottom">
+<section className="py-5 fadeIn1 fadeInBottom">
   <div className="container">
     <div className="row">
       <div className="col-md-8 mx-auto text-center">
