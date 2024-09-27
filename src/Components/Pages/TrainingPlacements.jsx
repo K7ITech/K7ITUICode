@@ -2,16 +2,7 @@ import React from "react";
 
 const TrainingPlacements = () => {
   
-  const handleMouseEnter = (e) => {
-    const youtubeIcon = e.currentTarget.querySelector('.youtube-icon');
-    youtubeIcon.style.display = 'block';
-  };
-
-  const handleMouseLeave = (e) => {
-    const youtubeIcon = e.currentTarget.querySelector('.youtube-icon');
-    youtubeIcon.style.display = 'none';
-  };
-
+  
   return (
     // <div>
     //   <header>
@@ -832,7 +823,6 @@ const TrainingPlacements = () => {
           </div>
         </div>
       </section>
-
 
 <section className="py-5 fadeIn1 fadeInBottom">
   <div className="container">
