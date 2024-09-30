@@ -101,8 +101,8 @@ className=" w-full bg-gradient-to-b from-black via-black to-sky-800 pt-8"
       </div>
       <div class="row mt-5 ">
         <div class="col-lg-4 mb-lg-0 mb-4 ">
-          <div class="card ">
-            <div class="card-header p-0 position-relative mt-n4 mx-2 z-index-2 ">
+          <div class="card pt-5">
+            <div class="card-header pt-0 position-relative mt-n4 mx-2 z-index-2 ">
               <a class="d-block blur-shadow-image">
                 <img
                   src="https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149052117.jpg"
