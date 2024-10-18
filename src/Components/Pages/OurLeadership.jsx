@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 const OurLeadership = () => {
   return (
     <div>
@@ -15,9 +15,9 @@ const OurLeadership = () => {
         <div class="col-lg-3 col-6 mb-lg-0 mb-4">
           <div class="card shadow-xl">
             <div class="card-body text-center bg-white border-radius-lg p-3">
-              <a href="/OurLeadershipInside">
+              <Link to="/OurLeadershipInside">
                 <img class="w-100 border-radius-md" src="../../assets/img/K7it.png"/>
-              </a>
+              </Link>
               <h5 class="mt-3 mb-1 d-md-block d-none">Kesavulu Arthala</h5>
               <p class="mb-0 text-xs font-weight-bolder text-info text-gradient text-uppercase">Founder & CEO</p>
             </div>

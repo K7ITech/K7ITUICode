@@ -50,7 +50,7 @@ const Industries = () => {
                 >
                   <img
                     alt="Image placeholder"
-                    src="https://cdn3d.iconscout.com/3d/premium/thumb/announcement-of-product-discounts-in-e-commerce-7735410-6241789.png?f=webp"
+                    src="../../../assets/img/Industries/ecommerceimg.webp"
                     className=""
                   />
                 </a>

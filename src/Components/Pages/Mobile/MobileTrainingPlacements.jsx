@@ -101,13 +101,13 @@ className=" w-full bg-gradient-to-b from-black via-black to-sky-800 pt-8"
       </div>
       <div class="row mt-5 ">
         <div class="col-lg-4 mb-lg-0 mb-4 ">
-          <div class="card ">
-            <div class="card-header p-0 position-relative mt-n4 mx-2 z-index-2 ">
-              <a class="d-block blur-shadow-image">
+          <div class="card pt-4">
+            <div class="card-header p-0 position-relative mt-n4 mx-2 z-index-2 w-100">
+              <a class="d-block blur-shadow-image ">
                 <img
                   src="https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149052117.jpg"
                   alt="img-blur-shadow"
-                  className="img-fluid shadow border-radius-lg services-images"
+                  className="img-fluid shadow border-radius-lg services-images "
                   loading="lazy"
                 />
               </a>
@@ -118,10 +118,10 @@ className=" w-full bg-gradient-to-b from-black via-black to-sky-800 pt-8"
                 <b> JAVA 22 VERSION, SPRINGBOOT,SPRING JPA, MYSQL, HTML 5, JAVASCRIPT, CSS, MICROSERVICE, ECLIPSE OR STS, MAVEN
                 </b> </p>
 
-            </div>
+            </div></div>
           </div>
           <div class="col-lg-4 mb-lg-0 mb-4">
-          <div class="card">
+          <div class="card mt-3 pt-4">
             <div class="card-header p-0 position-relative mt-n4 mx-2 z-index-2">
               <a class="d-block blur-shadow-image">
                 <img
@@ -139,15 +139,15 @@ className=" w-full bg-gradient-to-b from-black via-black to-sky-800 pt-8"
               </b> </p>
 
             </div>
-          </div>
+          </div></div>
           <div class="col-lg-4">
-          <div class="card ">
+          <div class="card mt-4 pt-4 ">
             <div class="card-header p-0 position-relative mt-n4 mx-2 z-index-2 ">
               <a class="d-block blur-shadow-image">
                 <img
                   src="https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149052117.jpg"
                   alt="img-blur-shadow"
-                  className="img-fluid shadow border-radius-lg services-images"
+                  className="img-fluid shadow border-radius-lg services-images "
                   loading="lazy"
                 />
               </a>
@@ -160,7 +160,7 @@ className=" w-full bg-gradient-to-b from-black via-black to-sky-800 pt-8"
               </div>
             </div>
           </div>
-          <div class="card mt-5">
+          <div class="card mt-5 pt-4">
             <div class="card-header p-0 position-relative mt-n4 mx-2 z-index-2">
               <a class="d-block blur-shadow-image">
                 <img
@@ -212,9 +212,7 @@ className=" w-full bg-gradient-to-b from-black via-black to-sky-800 pt-8"
               
             </div>
           </div>
-        </div>
-          
-        </div>
+        
         
         
           <div class="card mt-5">

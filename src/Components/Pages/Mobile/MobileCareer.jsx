@@ -6,11 +6,11 @@ const MobileCareer = () => {
   return (
     <div>
       <MobileNavbar />
-      <section class="py-6">
+      <section class="py-7">
         <div class="container">
-          <div class="align-items-center">
-            <div class="justify-content-start text-center">
-              <div>
+          <div class="row d-flex align-items-center">
+            <div class="col-lg-6 justify-content-start text-center">
+              <div class="">
                 <h3 className="source-serif-4 font-weight-lighter fs-2 text-primary">
                   We're more than a workplace.
                 </h3>
@@ -23,44 +23,51 @@ const MobileCareer = () => {
                 </p>
               </div>
               <div class="card card-plain">
-              <form id="contact-form"action="https://getform.io/f/bolgqwka" method="post" autocomplete="off">
+                <form id="contact-form"action="https://getform.io/f/bolgqwka" method="post" autocomplete="off">
                   <div class="card-body">
                     <div class="row">
                       <div class="col-md-6">
                         <div class="input-group input-group-outline mb-4">
                           <label class="form-label">First Name</label>
-                          <input class="form-control" type="text" name="Firstname" />
+                          <input class="form-control" type="text" name="Firstname" required/>
                         </div>
                       </div>
                       <div class="col-md-6 ps-md-2">
                         <div class="input-group input-group-outline">
                           <label class="form-label">Last Name</label>
-                          <input type="text" class="form-control" name="Lastname"/>
+                          <input type="text" class="form-control" name="Lastname" required/>
                         </div>
                       </div>
                     </div>
                     <div class="col-md-12 mb-4">
                       <div class="input-group input-group-outline">
                         <label class="form-label">Email</label>
-                        <input type="text" class="form-control" name="Email"/>
+                        <input type="text" class="form-control" name="Email" required/>
                       </div>
                     </div>
                     <div class="col-md-12 mb-4">
                       <div class="input-group input-group-outline">
                         <label class="form-label">Phone Number</label>
-                        <input type="text" class="form-control" name="Phone Number"/>
+                        <input type="text" class="form-control" name="Phone Number" required/>
+                      </div>
+                    </div>
+                    <div class="col-md-12 mb-4">
+                    <label for="photo">Choose a photo:</label>
+                      <div class="input-group input-group-outline">
+                      
+                      <input type="file" id="image" class="form-control" name="image" accept="image/*" capture="environment" required/>
                       </div>
                     </div>
                     <div class="col-md-12 mb-4">
                       <div class="input-group input-group-outline">
                         <label class="form-label">Year of Graduation</label>
-                        <input type="text" class="form-control" name="Year of Graduation"/>
+                        <input type="text" class="form-control" name="Year of Graduation" required/>
                       </div>
                     </div>
                     <div class="col-md-12 mb-4">
                       <div class="input-group input-group-outline">
                         <label class="form-label">Qualification</label>
-                        <input type="text" class="form-control" name="Qualification"/>
+                        <input type="text" class="form-control" name="Qualification" required/>
                       </div>
                     </div>
                     <div class="row">
@@ -69,7 +76,7 @@ const MobileCareer = () => {
                           <select
                             class="form-control"
                             id="exampleFormControlSelect1"
-                            name="Gender"
+                            name="Gender" required
                           >
                             <option>Gender</option>
                             <option>Male</option>
@@ -83,7 +90,7 @@ const MobileCareer = () => {
                           <select
                             class="form-control"
                             id="exampleFormControlSelect1"
-                            name="YearsOfExperience"
+                            name="YearsOfExperience" required
                           >
                             <option>Years of Experience</option>
                             <option>Fresher</option>
@@ -98,7 +105,7 @@ const MobileCareer = () => {
                     <div class="col-md-12 mb-4">
                       <div class="input-group input-group-outline">
                         <label class="form-label">Current Location</label>
-                        <input type="text" class="form-control" name="Current Location" />
+                        <input type="text" class="form-control" name="Current Location" required/>
                       </div>
                     </div>
                     <div class="col-md-12 mb-4">
@@ -106,7 +113,7 @@ const MobileCareer = () => {
                         <select
                           class="form-control"
                           id="exampleFormControlSelect1"
-                          name="Skills"
+                          name="Skills" required
                         >
                           <option>Skills</option>
                           <option>Software Developer</option>
@@ -120,6 +127,13 @@ const MobileCareer = () => {
                           <option>Graphic Designer</option>
                         </select>
                       </div>
+                    </div>
+                    <label class="form-label" >Upload CV/Resume</label>
+                    <div class="input-group input-group-outline mb-4 mt-md-0 mt-4">
+                      <label class="form-label"></label>
+                      <input type="file" class="form-control" name="Resume/CV" placeholder="Upload CV/Resume" required/>
+
+
                     </div>
                     <div class="input-group input-group-outline mb-4 mt-md-0 mt-4">
                       <label class="form-label">Message</label>
@@ -143,6 +157,10 @@ const MobileCareer = () => {
                   </div>
                 </form>
               </div>
+            </div>
+            <div className="col-lg-4">
+            <img src="../../assets/imgs/allcourses.webp" alt="" />
+
             </div>
           </div>
         </div>

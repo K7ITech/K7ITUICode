@@ -49,7 +49,7 @@ const MobileServices = () => {
                   </div>
                 </div>
               </div>
-              <div class="container card mt-5 mb-4">
+              <div class="container card pt-5 mb-4">
                 <div class="card-header p-0 position-relative mt-n4 mx-2 z-index-2">
                   <a class="d-block blur-shadow-image">
                     <img
@@ -80,7 +80,7 @@ const MobileServices = () => {
                   </div>
                 </div>
               </div>
-              <div class="container mt-5 mb-4 card">
+              <div class="container pt-5 mb-4 card">
                 <div class="card-header p-0 position-relative mt-n4 mx-2 z-index-2">
                   <a class="d-block blur-shadow-image">
                     <img
@@ -111,7 +111,7 @@ const MobileServices = () => {
                   </div>
                 </div>
               </div>
-              <div class="container mb-4 card mt-5">
+              <div class="container mb-4 card pt-5">
                 <div class="card-header p-0 position-relative mt-n4 mx-2 z-index-2">
                   <a class="d-block blur-shadow-image">
                     <img
@@ -143,7 +143,7 @@ const MobileServices = () => {
                   </div>
                 </div>
               </div>
-              <div class="card mt-5 mb-4 container">
+              <div class="card pt-5 mb-4 container">
                 <div class="card-header p-0 position-relative mt-n4 mx-2 z-index-2">
                   <a class="d-block blur-shadow-image">
                     <img
@@ -174,7 +174,7 @@ const MobileServices = () => {
                   </div>
                 </div>
               </div>
-              <div class="card mt-5 container mb-4">
+              <div class="card pt-5 container mb-4">
                 <div class="card-header p-0 position-relative mt-n4 mx-2 z-index-2">
                   <a class="d-block blur-shadow-image">
                     <img

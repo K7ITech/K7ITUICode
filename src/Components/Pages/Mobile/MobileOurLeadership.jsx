@@ -1,6 +1,7 @@
 import React from "react";
 import MobileNavbar from "./MobileNavbar";
 import MobileFooter from "./MobileFooter";
+import { Link } from "react-router-dom";
 
 const MobileOurLeadership = () => {
   return (
@@ -16,17 +17,17 @@ const MobileOurLeadership = () => {
           </div>
         </div>
         <div class="mt-5 mb-5">
-         <a href="/MobileLeadershipInside">
+         <Link to="/MobileLeadershipInside">
          <div class="card shadow-lg">
             <div class="card-header mx-3 p-0 bg-transparent position-relative z-index-2">
-              <a class="d-block blur-shadow-image ">
+              <Link class="d-block blur-shadow-image ">
                 <img
                   src="../../assets/img/K7it.png"
                   alt="img-blur-shadow"
                   class="img-fluid shadow border-radius-lg img-height"
                   loading="lazy"
                 />
-              </a>
+              </Link>
               <div class="card-body text-center bg-white border-radius-lg p-3 pt-0">
                 <p class="mb-1 d-md-none d-block text-sm font-weight-bold text-dark mt-3">
                   Kesavulu Arthala
@@ -37,7 +38,7 @@ const MobileOurLeadership = () => {
               </div>
             </div>
           </div>
-         </a>
+         </Link>
         </div>
       </div>{" "}
       <MobileFooter/>

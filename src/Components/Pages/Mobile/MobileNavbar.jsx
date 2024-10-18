@@ -1,13 +1,13 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const MobileNavbar = () => {
   return (
     <div className="display-mob">
       <nav class="navbar navbar-expand-lg blur border-radius-xl top-0 z-index-fixed shadow fixed-top  start-0 end-0">
         <div class="container-fluid px-0">
-          <a
+          <Link
             class="navbar-brand font-weight-bolder ms-sm-3  d-block d-md-none"
-            href="/"
+            to="/"
             rel="tooltip"
             title="Designed and Coded by Creative Tim"
             data-placement="bottom"
@@ -19,7 +19,7 @@ const MobileNavbar = () => {
               height="40"
               style={{ objectFit: "contain" }}
             />
-          </a>
+          </Link>
           <button
             class="navbar-toggler shadow-none ms-md-2"
             type="button"
@@ -41,64 +41,64 @@ const MobileNavbar = () => {
           >
             <ul class="navbar-nav navbar-nav-hover ms-auto">
               <li class="nav-item dropdown dropdown-hover mx-2">
-                <a
-                  href="/MobileAboutUs"
+                <Link
+                  to="/MobileAboutUs"
                   role="button"
                   class="nav-link ps-2 d-flex cursor-pointer align-items-center text-black"
                 >
                  <i className="ri-group-line opacity-6 me-2 text-md"></i>
                   About Us
-                </a>
+                </Link>
               </li>
               <li class="nav-item dropdown dropdown-hover mx-2">
-                <a
-                  href="/MobileIndustries"
+                <Link
+                  to="/MobileIndustries"
                   role="button"
                   class="nav-link ps-2 d-flex cursor-pointer align-items-center"
                 >
                  <i class="ri-community-line opacity-6 me-2 text-md" aria-hidden="true"></i>
                   Industries
-                </a>
+                </Link>
               </li>
               <li class="nav-item dropdown dropdown-hover mx-2">
-                <a
-                  href="/MobileServices"
+                <Link
+                  to="/MobileServices"
                   role="button"
                   class="nav-link ps-2 d-flex cursor-pointer align-items-center"
                 >
                   <i class="ri-server-line opacity-6 me-2 text-md" aria-hidden="true"></i>
                   Services
-                </a>
+                </Link>
               </li>
               <li class="nav-item dropdown dropdown-hover mx-2">
-                <a
-                  href="/MobileOurLeadership"
+                <Link
+                  to="/MobileOurLeadership"
                   role="button"
                   class="nav-link ps-2 d-flex cursor-pointer align-items-center"
                 >
                   <i class="ri-insert-row-top opacity-6 me-2 text-md"></i>
                   Our Leadership
-                </a>
+                </Link>
               </li>
               <li class="nav-item dropdown dropdown-hover mx-2">
-                <a
-                  href="/MobileTrainingPlacements"
+                <Link
+                  to="/MobileTrainingPlacements"
                   role="button"
                   class="nav-link ps-2 d-flex cursor-pointer align-items-center"
                 >
                   <i class="ri-presentation-line opacity-6 me-2 text-md"></i>
                   Training & Placements
-                </a>
+                </Link>
               </li>
               <li class="nav-item dropdown dropdown-hover mx-2">
-                <a
-                  href="/MobileCareer"
+                <Link
+                  to="/MobileCareer"
                   role="button"
                   class="nav-link ps-2 d-flex cursor-pointer align-items-center"
                 >
                   <i class="ri-graduation-cap-line opacity-6 me-2 text-md"></i>
                   Career
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

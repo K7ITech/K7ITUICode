@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -21,6 +22,7 @@ const Footer = () => {
                 <div className="col-lg-4">
                   <a
                     href="#"
+                    target="_blank"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
                   >
@@ -82,35 +84,35 @@ const Footer = () => {
             <div class="col-lg-6 text-center">
               <ul class="nav flex-row align-items-center mb-5 mt-sm-0 justify-content-center">
                 <li class="nav-item">
-                  <a class="nav-link" href="/Aboutus">
+                  <Link class="nav-link" to="/Aboutus">
                     About
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/Industries">
+                  <Link class="nav-link" to="/Industries">
                     Industries
-                  </a>
+                  </Link>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="/Services">
+                  <Link class="nav-link" to="/Services">
                     Services
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/OurLeadership">
+                  <Link class="nav-link" to="/OurLeadership">
                     Our Leadership
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/TrainingPlacements">
+                  <Link class="nav-link" to="/TrainingPlacements">
                     Training & Placements
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/Career">
+                  <Link class="nav-link" to="/Career">
                     Career
-                  </a>
+                  </Link>
                 </li>
               </ul>
               <p class="mb-0">

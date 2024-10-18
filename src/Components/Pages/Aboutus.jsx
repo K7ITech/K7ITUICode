@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Aboutus = () => {
   return (
     <div className="py-3">
@@ -8,7 +9,7 @@ const Aboutus = () => {
           <div>
             <img
               class="position-absolute fixed-top ms-auto w-50 h-100 z-index-0 d-none d-sm-none img-fit d-md-block border-radius-section border-top-end-radius-0 border-top-start-radius-0 border-bottom-end-radius-0"
-              src="https://fellow.app/wp-content/uploads/2022/04/feedback.jpg"
+              src="../../../assets/img/aboutusimgs/aboutimg1.webp"
               alt="feedbackimg"
               loading="lazy"
             />
@@ -108,7 +109,7 @@ const Aboutus = () => {
               <div class="col-lg-4 col-6 mx-lg-0 mx-auto px-lg-0 px-md-0 my-auto">
                 <img
                   class="w-100 border-radius-lg shadow rounded-circle"
-                  src="https://st.depositphotos.com/1594308/3681/i/450/depositphotos_36816545-stock-photo-successful-employee.jpg"
+                  src="../../../assets/img/aboutusimgs/aboutimg2.jpg"
                   alt="successfulempimg"
                 />
               </div>
@@ -122,7 +123,7 @@ const Aboutus = () => {
                   alt=""
                 ></div>
                 <img
-                  src="https://img.freepik.com/premium-photo/side-view-business-colleagues-working-office_1048944-28268841.jpg?size=626&ext=jpg&ga=GA1.1.1141335507.1719187200&semt=ais_user"
+                  src="../../../assets/img/aboutusimgs/aboutimg3.avif"
                   class="w-100 border-radius-xl mt-6 ms-7 position-absolute"
                   alt=""
                 />

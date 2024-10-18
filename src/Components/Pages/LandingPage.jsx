@@ -120,7 +120,7 @@ const LandingPage = () => {
                 <div class="card-header p-0 position-relative z-index-2">
                   <a class="d-block blur-shadow-image">
                     <img
-                      src="https://images.pexels.com/photos/6774452/pexels-photo-6774452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                      src="../../assets/img/Landingpageimgs/landingpageimg1.webp"
                       alt="img-blur-shadow"
                       class="img-fluid border-radius-lg "
                     />
@@ -143,7 +143,7 @@ const LandingPage = () => {
                     alt=""
                   ></div>
                   <img
-                    src="https://hearst-images.s3.amazonaws.com/getty/f72bf609847445babe66dcf1dc384cd9.jpg"
+                    src="../../assets/img/Landingpageimgs/landingpageimg2.jpg"
                     class="w-100 border-radius-xl mt-6 ms-7 position-absolute"
                     alt=""
                   />
@@ -224,7 +224,7 @@ const LandingPage = () => {
                         <div class="p-3">
                           <img
                             class="w-100 border-radius-md max-height-600 fadeIn2 fadeInBottom img-fit"
-                            src="https://www.shutterstock.com/image-photo/vertical-view-happy-businessman-formalwear-600nw-1800744955.jpg"
+                            src="../../assets/img/Landingpageimgs/landingpageimg2.webp"
                             alt="First slide"
                           />
                         </div>

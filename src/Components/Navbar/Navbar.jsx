@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -10,7 +11,7 @@ const Navbar = () => {
         >
           <div class="container-fluid w-100">
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <a class="navbar-brand" href="/">
+              <Link class="navbar-brand" to="/">
                 <img
                   src="../assets/img/logo.png"
                   alt="Bootstrap"
@@ -18,99 +19,99 @@ const Navbar = () => {
                   height="50"
                   style={{ objectFit: "contain" }}
                 />
-              </a>
+              </Link>
               <ul class="navbar-nav mx-auto d-flex gap-4">
                 <li class="nav-item">
-                  <a
+                  <Link
                     class="nav-link fs-6 text-black"
                     aria-current="page"
-                    href="/Aboutus"
+                    to="/Aboutus"
                   >
                     About Us
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item">
-                  <a
+                  <Link
                     class="nav-link fs-6 text-black"
                     aria-current="page"
-                    href="/Industries"
+                    to="/Industries"
                   >
                     Industries
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item">
-                  <a
+                  <Link
                     class="nav-link  fs-6 text-black"
                     aria-current="page"
-                    href="/Services"
+                    to="/Services"
                   >
                     Services
-                  </a>
+                  </Link>
                 </li>
 
                 <li class="nav-item">
-                  <a
+                  <Link
                     class="nav-link  fs-6 text-black"
                     aria-current="page"
-                    href="/OurLeadership"
+                    to="/OurLeadership"
                   >
                     Our Leadership
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item">
-                  <a
+                  <Link
                     class="nav-link  fs-6 text-black"
                     aria-current="page"
-                    href="/TrainingPlacements"
+                    to="/TrainingPlacements"
                   >
                     Training & Placements
-                  </a>
+                  </Link>
                 </li>
                 {/* <li class="nav-item">
-                  <a
+                  <Link
                     class="nav-link  fs-6 text-black"
                     aria-current="page"
-                    href="/Career"
+                    to="/Career"
                   >
                     Career
-                  </a>
+                  </Link>
                 </li> */}
                 <li class="nav-item">
-                  <a
+                  <Link
                     class="nav-link  fs-6 text-black"
                     aria-current="page"
-                    href="/Career"
+                    to="/Career"
                   >
                     Contact Us
-                  </a>
+                  </Link>
                 </li>
               </ul>
               <form class="d-flex gap-0 text-end justify-content-end  align-items-center">
-                <a
-                  href="https://www.facebook.com/share/c1pn8nwMo7EcLdLu/?mibextid=qi2Omg"
+                <Link
+                  to="https://www.facebook.com/share/c1pn8nwMo7EcLdLu/?mibextid=qi2Omg"
                   class="text-secondary me-xl-4"
                   
                 >
                   <span class="fa fa-facebook text-info fa-lg"></span>
-                </a>
-                <a
-                  href="https://www.instagram.com/k7infotechpvtltd"
+                </Link>
+                <Link
+                  to="https://www.instagram.com/k7infotechpvtltd"
                   class="text-secondary me-xl-4"
                 >
                   <span class="fa fa-instagram  text-danger fa-lg"></span>
-                </a>
-                <a
-                  href="https://www.linkedin.com/company/k7infotech/"
+                </Link>
+                <Link
+                  to="https://www.linkedin.com/company/k7infotech/"
                   class="text-secondary me-xl-4"
                 >
                   <span class="fa fa-linkedin text-success fa-lg"></span>
-                </a>
-                <a
-                  href="https://youtube.com/@k7infotechpvtltd?si=wty7wuwiXmhp564O"
+                </Link>
+                <Link
+                  to="https://youtube.com/@k7infotechpvtltd?si=wty7wuwiXmhp564O"
                   class="text-secondary me-xl-4"
                 >
                   <span class="fa fa-youtube-play  text-danger fa-lg"></span>
-                </a>
+                </Link>
                 <button type="button" class="btn btn-outline-success text-xs ">
                   +91 8068036654{" "}
                   <span>
